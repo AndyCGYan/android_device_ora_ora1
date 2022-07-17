@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_rlk8321_tb_rc_m-user
-add_lunch_combo omni_rlk8321_tb_rc_m-userdebug
-add_lunch_combo omni_rlk8321_tb_rc_m-eng
+add_lunch_combo omni_ora1-user
+add_lunch_combo omni_ora1-userdebug
+add_lunch_combo omni_ora1-eng

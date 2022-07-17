@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/ora/rlk8321_tb_rc_m
+DEVICE_PATH := device/ora/ora1
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -18,7 +18,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := rlk8321_tb_rc_m
+TARGET_OTA_ASSERT_DEVICE := ora1,rlk8321_tb_rc_m
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := Ora_V0.1.1.0_18
@@ -46,8 +46,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/ora/rlk8321_tb_rc_m
-TARGET_KERNEL_CONFIG := rlk8321_tb_rc_m_defconfig
+TARGET_KERNEL_SOURCE := kernel/ora/ora1
+TARGET_KERNEL_CONFIG := ora1_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6580
@@ -58,7 +58,7 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"

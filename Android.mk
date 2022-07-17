@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),rlk8321_tb_rc_m)
+ifeq ($(TARGET_DEVICE),ora1)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

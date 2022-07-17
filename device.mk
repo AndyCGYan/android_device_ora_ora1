@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/ora/rlk8321_tb_rc_m
+LOCAL_PATH := device/ora/ora1

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_rlk8321_tb_rc_m.mk
+    $(LOCAL_DIR)/omni_ora1.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_rlk8321_tb_rc_m-user \
-    omni_rlk8321_tb_rc_m-userdebug \
-    omni_rlk8321_tb_rc_m-eng
+    omni_ora1-user \
+    omni_ora1-userdebug \
+    omni_ora1-eng
